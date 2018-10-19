@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ProjectAssignment</string>
+    <string name="octranspo">OCTranspo Bus Route</string>
+    <string name="cbc_newsreader">CBC News Reader</string>
+    <string name="movie_info">Movie Information</string>
+    <string name="food_nutrition">Food Nutrition</string>
+</resources>

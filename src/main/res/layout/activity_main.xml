@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/container"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:rowCount="2"
+tools:columnCount="2"
+tools:context=".MainActivity">
+
+<Button
+    android:id="@+id/cbcNews"
+    android:gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_columnWeight="1"
+    android:layout_rowWeight="1"
+    android:layout_row="0"
+    android:layout_column="0"
+    android:text="@string/cbc_newsreader" />
+
+<Button
+    android:id="@+id/movieInfo"
+    android:gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_columnWeight="1"
+    android:layout_rowWeight="1"
+    android:layout_row="0"
+    android:layout_column="1"
+    android:text="@string/movie_info" />
+
+<Button
+    android:id="@+id/ocTranspo"
+    android:gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_columnWeight="1"
+    android:layout_rowWeight="1"
+    android:layout_row="1"
+    android:layout_column="0"
+    android:text="@string/octranspo" />
+
+<Button
+    android:id="@+id/foodNutrition"
+    android:gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_columnWeight="1"
+    android:layout_rowWeight="1"
+    android:layout_row="1"
+    android:layout_column="1"
+    android:text="@string/food_nutrition" />
+</GridLayout>
